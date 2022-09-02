@@ -1,0 +1,35 @@
+.navbar-brand {
+  padding-top: 1.325rem !important;
+  font-size: 16px !important;
+}
+
+.button {
+  margin-left: 15px;
+  padding: 5px 16px !important;
+  font-size: 16px !important;
+  border-radius: 5px !important;
+}
+
+.logoutWrap {
+  display: flex;
+  align-items: center;
+}
+
+h5 {
+  color: #fff;
+}
+
+.logo_img {
+  width: 4%;
+  margin: 0 15px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 310px) and (max-width: 768px) {
+  .logo_img {
+    width: 12%;
+    margin: 0;
+    padding: 3px;
+  }
+}
